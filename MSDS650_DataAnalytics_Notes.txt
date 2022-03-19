@@ -1,0 +1,70 @@
+MSDS650
+Data Analytics
+Week 1
+	Dataframes in Pandas
+		column = variable or feature
+		row = observation
+
+Week 2: Probability and Proportion
+	Proportion: percentage of a larger group
+	https://www.youtube.com/watch?v=7eNGVnd2FKM
+	"A market research firm conducts surveys with a 40% historical response rate. What is the probability that in a new sample of 400 telephone numbers, at least 150 people respond? In other words, what is probability of proportion being 0.375"
+		P (probability proportion) = 0.4
+		Probability of failure = 1 - P = 0.6
+		We need to assume this follows a normal distribution
+			To do that we need to make sure:
+				np > 5, n(1-p) > 5
+					In our case, np = 0.4n, n(1-p) = 0.6n
+					n = sample size = 400
+					np = 40, n(1-p)=60
+					SO we can assume normal distro
+		Assuming normal distro
+			population mean = 0.4
+			To standardize using proportions, we use:
+				z = (p_hat - p) / SQRT(p*(1-p)/n)
+					p_hat = sample mean = 0.375
+					p = population mean = 0.4
+					n = sample size = 400
+				Z = -1.02
+				Now we use standard normal distribution table 
+					Where does 0.375 fall on the normal distro table
+						Well, it lies at -1.02
+				Standard normal distro has mean at 0
+					our 0.375 falls at -1.02
+					we want to find the area greater than -1.02
+				Using table, we get 0.1539
+					this is area that falls to the left of -1.02
+					so we want 1-0.1539 = 0.8461
+	https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-proportion/v/probability-of-sample-proportions-example
+	"Suppose 15% of a population of 1750 students say they're experiencing high levels of stress. What is the probability that more than 10% of a sample of 160 would report they are experience high stress levels?"
+	p = population mean = 0.15
+	p_hat = sample mean = 0.10
+	n = sample size = 160
+		Need to figure out if we can assume normal distro
+			np = 160 * 0.15 = 24, n(1-p) = 160 * 0.85 = 136
+				both are greater than 5 (this video says 10 actually), so we can assume normal distro
+		Assuming normal distro,
+			Z = (p_hat - p) / SQRT(p*(1-p)*n)
+			Z = (0.10 - 0.15) / SQRT(0.15*0.85/160) = -0.05/0.02822897 = -1.77122977
+			Using tables, P(-1.7712)= 0.03836
+			P(>-1.7712) = 1 - 0.03836 = 0.96164 = 96.164%, OPTION C IS ANSWER 
+						
+	Probability vs. Proportion
+		Ex. 1: Flipping a Coin
+			Probability(heads) = 50%
+			If we flip a coin 50 times and it lands on head 30 times, then Proportion(heads) = 60%
+			Probability = theoretical
+			Proportion = empirical, real
+		Ex. 2: Rolling Dice
+			Probability = 1/6 = 16.67%
+			Proportion = number of times it actually lands on (dice number)
+		Probability talks about the chances of some event happening in the future.
+		Proportion describes how often some event actually happened in the past.
+	Probabilities
+		Joint probability: Probability of two or more events happening at the same time.
+		Marginal probability: Probability of an event regardless of other variables outcome.
+		Conditional probability: Probability of an event occurring along with one or more other events.
+		1-P(A) = "complement"
+	
+						
+				
