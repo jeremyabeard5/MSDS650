@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/nikhilbhathi/data-scientist-salary-us-glassdoor
+
+The dataset is scraped from the Glassdoor website using Selenium scrapper. After scrapping, the raw dataset was cleaned and made usable for performing data analysis and modelling. The dataset contains information about the minimum salary, maximum salary, average salary, job description, age of the company in years, etc.
+Note: -1 value in any column means either the information was not available or selenium was not able to scrap it. You can remove or replace the -1 value however you like.
+

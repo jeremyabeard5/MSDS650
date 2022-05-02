@@ -1,0 +1,102 @@
+https://thenextweb.com/news/the-14-best-data-visualization-tools
+
+D3.js: Data-Driven Documents
+	Uses HTML, CSS, and SVG for charts/diagrams
+	"If you can imagine any visualization, you can do it with D3"
+	Most all free and open-source
+	Concerns:
+		steep learning curve
+		only compatible with modern browsers
+
+FusionCharts
+	Has most exhaustive collection of charts and maps
+	90+ chart types, 965 maps
+	Also supports older browsers
+	Supports both JSON and XML data formats
+	Can export png, jpeg, svg, pdf
+	Has business dashboard, live demos
+	Works across all devices and platforms
+	Concerns:
+		Slightly expensive
+
+Chart.js
+	Open source library
+	Supports 6 chart types: line, bar, radar, polar, pie, and doughnut
+	Uses html canvas element for rendering charts
+	Docs: http://www.chartjs.org/docs/
+	
+Google Charts
+	Renders in HTML5/SVG
+	Cross-browser, cross-platform
+	Includes VML for older IE
+	Decent number of charts
+	Flexible, user-friendly
+	Examples: https://developers.google.com/chart/interactive/docs/gallery
+	
+Highcharts
+	Diverse range of charts and maps
+	Offers different package for stock charts called Highstock
+	Can export in PNG, JPG, SVG, and PDF
+	Demo: https://www.highcharts.com/demo/line-basic
+	
+Leaflet
+	Open-source library
+	Mobile-friendly interactive maps
+	Extremely light (33kb)
+	Simplicity, performance, usability
+	Plugins available
+	
+dygraphs
+	open-source Javascript charting library
+	For huge datasets
+	Fast, flexible, highly customizable
+	Niche use-case (large datasets)
+	Demos: http://dygraphs.com/gallery/#g/synchronize
+	
+Non-Developers Section Below
+	Datawrapper
+		online tool, interactive charts
+		upload the data from csv file or paste directly
+		generate bar, line, any related viz
+		Can embed live charts into articles
+		Easy to use, produces effective graphics
+		Tutorial: http://docs.datawrapper.de/tutorial/
+	
+	Tableau (Tableau Public)
+		most popular
+		wide variety of charts, graphs, maps, and other 
+		completely free
+		can easily embed in web pages
+		Demos: https://public.tableau.com/s/gallery
+		Concerns:
+			Footer?
+			
+	Raw
+		"the missing link between spreadsheets and vector graphics"
+		Built on top of D3.js
+		Well-designed, intuitive, open-source
+		Library of 16 chart types, all processing done in browser
+		Highly customizable and extensible, can accept custom layouts
+		
+	Timeline JS
+		Timeslines w/o writing any code
+		Free, open-source
+		Easy 4 step process: http://timeline.knightlab.com/
+		Can pull in media for a variety of sources
+		Built-in support for Twitter, Flickr, Google Maps, YouTube, Vimeo, Vine, Dailymotion, Wikipedia, SoundCloud
+		
+	Infogram
+		Charts, infographics
+		Restricted Free Version/Paid Version
+		200+ maps in paid version, icons library
+		Easy to use, basic charts are well-designed
+		Concerns:
+			big logo when embedding in webpage (free version)
+		
+	Plotly
+		https://plot.ly/feed/
+	
+	ChartBlocks
+		http://www.chartblocks.com/
+		
+
